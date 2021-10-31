@@ -13,3 +13,13 @@ The MODEL1 is the first CNN trained on the classes of angry and sleeping images 
 The results after training the three models can show how a proposed architecture of CNN performs on different classes.
 
 The first step is to create a custom dataset and transform it to feed into the input layer. For the three CNNs, downloaded around 350 images from google belonging to each class and then used generic data augmentation techniques to increase the training dataset three times. Later, converted all the images to grayscale and a fixed size of 100x100 which sharpened all of them.
+![Screenshot (299)](https://user-images.githubusercontent.com/55136275/139580489-856c9844-81d2-4408-a4d4-f5020b3265d2.png)
+
+The following is the architecture of the CNN created, the information of the various layers and the activation function used:
+![Screenshot (300)](https://user-images.githubusercontent.com/55136275/139580519-316a4784-8d4e-4098-840b-e544fa68bc94.png)
+
+We have trained three models which have given varying accuracy and this way we were able to observe and comment on how CNNs perform on different datasets.
+
+Later we combined the output of all models and predicted the behaviour and activity done by the dog in the input image.
+
+
